@@ -1,0 +1,115 @@
+.content-container{
+    &.fluid{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    
+        & .content-left{
+            flex: 1;
+            padding-right: 15px;
+    
+            & .content-img{
+    
+                img{
+                    width: 80vh;
+                    max-width: 100%;
+                }
+            }
+        
+            & .content-text{
+                font-size:13px;
+                margin: 5% 10%;
+                text-align: center;
+        
+                & .content-text-para{
+                    font-size:13px;
+                    &.dark-bg{
+                        color:$light-text-color;
+                    }
+                }
+            }
+        }
+    
+        & .content-right{
+            flex: 1;
+            padding-left: 15px;
+
+            & .content-img{
+                width: 80vh;
+                max-width: 100%;
+            }
+        
+            & .content-text{
+                font-size:13px;
+                margin: 5% 10%;
+                text-align: center;
+
+                & .content-text-para{
+                    font-size:13px;
+                    &.dark-bg{
+                        color:$light-text-color;
+                    }
+                }
+            }
+        }
+    } 
+
+    & .content-left{
+        flex: 1;
+        padding-right: 15px;
+
+        & .content-img{
+                text-align: center;
+            img{
+                max-width: 700px;
+            }
+        }
+    
+        & .content-text{
+            font-size:13px;
+            margin-left: 30%;
+    
+            & .content-text-para{
+                font-size:13px;
+                &.dark-bg{
+                    color:$light-text-color;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:992.98px){
+    .content-container{
+        &.fluid{
+            flex-direction: row;
+
+            & .content-right{
+                & .content-text{
+                    text-align: left;
+                }
+
+                & .content-img{
+                    img{
+                        width: 60vh;
+                    }
+                }
+                
+            }
+
+            & .content-left{
+                & .content-text{
+                    text-align: left;
+                }
+
+                & .content-img{
+    
+                    img{
+                        height: 60vh;
+                    }
+                }
+            }
+        }
+    }
+}

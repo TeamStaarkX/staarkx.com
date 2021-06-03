@@ -1,0 +1,16 @@
+.button{
+    &.button-primary{
+        @include primary-gradient-bg;
+        border-radius: 36px;
+        background-color: transparent;
+        color: white;
+        border:none;
+    }
+
+    &.button-lg{
+        padding: 12px 44px;
+        font-family: 'Muli-Bold';
+    }
+
+
+}

@@ -1,0 +1,20 @@
+.section{
+    padding: 120px 0px;
+
+    &.colored{
+        background: $secondary-color;
+    }
+
+    &.curvy-right{
+        border-radius: 0px 200px 0px 77px;
+        padding: 150px 0px;
+    }
+
+    &.curvy-left-btm{
+        border-radius: 0px 0px 0px 200px;
+    }
+
+    &.landing{
+        padding:0px;
+    }
+}
