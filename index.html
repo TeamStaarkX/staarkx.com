@@ -21,10 +21,10 @@
             <div>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item d-flex">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" aria-current="page" href="#get-to-know">Get to know us</a>
-                    <a class="nav-link" aria-current="page" href="#what-we-offer">What we offer</a>
-                    <a class="nav-link" aria-current="page" href="#lets-talk">Let’s Talk</a>
+                    <a class="nav-link" aria-current="page" href="#" id="nav-home">Home</a>
+                    <a class="nav-link" aria-current="page" href="#get-to-know" id="nav-get-to-know">Get to know us</a>
+                    <a class="nav-link" aria-current="page" href="#what-we-offer" id="nav-offer">What we offer</a>
+                    <a class="nav-link" aria-current="page" href="#lets-talk" id="nav-talk">Let’s Talk</a>
                     </li>
                 </ul>
             </div>
@@ -32,132 +32,239 @@
     </div>
   </nav>
 
-    <section class="section colored landing curvy-left-btm">
-        <div class="landing-container">
-            <div class="landing-container-left">
-                <div class="title-lg dark-bg">Tell us your story…</div>
-                <div class="title-lg-light dark-bg">We’ll provide</div>
-                <div class="title-md dark-bg">practical IT solutions</div>
-                <div class="btn-holder">
+<section class="section colored landing curvy-left-btm" id="home">
+    <div class="landing-container">
+        <div class="landing-container-left">
+            <div class="title-lg dark-bg">Tell us your story…</div>
+            <div class="title-md dark-bg">We are enabling pragmatic IT solutions</div>
+            <div class="mg-tb-sm para-md">We, driven by innovation, fueled with passion, equiped with technologies to give you the best solution!</div>
+            <div class="btn-holder">
+                <a href="#get-to-know">
                     <input type="button" class="button button-primary button-lg" value="Explore more">
-                </div>
-            </div>
-            <div class="landing-container-right">
-                <img src="assests/img/home-screen.svg" alt="staarkX">
+                </a>
             </div>
         </div>
-    </section>
+        <div class="landing-container-right">
+            <img src="assests/img/home-screen.svg" alt="staarkX">
+        </div>
+    </div>
+</section>
+<div class="container">
     <section class="section" id="get-to-know">
-        <div class="content-container fluid">
+        <div class="content-container fluid pd-bt-lg">
             <div class="content-left order-sm-2 order-md-1">
                 <div class="content-img">
-                    <img src="assests/img/shakehand-1.svg">
+                    <img src="assests/img/shakehand.svg">
                 </div>
             </div>
             <div class="content-right order-sm-1 order-md-2">
                 <div class="content-text">
-                    <div class="title-section">Let’s get to know more</div>
+                    <div class="title-section"><span>Hi, </span>Let’s Get To Know More</div>
                     <div class="content-text-para">
-                        We are a software company that helps you to make your dream idea a reality. Either it’s a project from the scratch or ongoing one, we would like to help you. 
-                        Blah blah blah blah blah blah blahb blah blah blah
-                    </div>
+                    <p>We Staarkians are providing an all-in-one platform that enables you to seamlessly manage all your IT related solutions and digitize your organization by resolving your main pain or by achieving your foreseen opportunity. </p>   
+                    <p>We are a team of highly skilled, diverse individuals who have experience in Business Analysis, UX/UI, Development, 
+                    Quality Assurance,Project Management and IT Legal Advisory in Fintech, Apparel, Logistic, Hospitality Mangement,Ed Tech, Healthcare etc.</p>
+                    <p>We are Tech' In Forward you to the competive edge with journey of digitaization.</p>
+                </div>
+                    
                     <div class="btn-holder">
-                        <input type="button" class="button button-primary button-lg" value="Explore more">
+                        <a href="#focus-area">
+                            <input type="button" class="button button-primary button-lg" value="Explore more more about our solution focus area">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="t-center mg-tb-md" id="focus-area">
+            <div class="title-section">Our Solution Focus Areas</div>
+            <div class="para-section mg-tb-sm">We ease your operations by providing IT solutions which emcompass the entire spectrum of your enterpise functionality. We cater bespoken solutions which covers the entire domain transactions of your business enterprise including accounting, finance, inventory, sales, purchase, manufaturing, payroll and after sales. </div>
+        </div>
+
+        <div class="pd-tb-md">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="content-card reveresed colored">
+                        <div class="card-text">
+                            <div class="card-title">Enterprise Solutions</div>
+                            <div class="card-para">
+                                We ease your operations by providing IT solutions which emcompass the entire spectrum of your enterpise functionality. We cater bespoken solutions which covers the entire domain transactions of your 
+                                business enterprise including accounting, finance, inventory, sales, purchase, manufaturing, payroll and after sales. 
+                            </div>
+                            <div class="btn-holder">
+                                <a href="#what-we-offer">
+                                    <input type="button" class="button button-primary button-md" value="Explore more">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-img">
+                            <img src="assests/img/enterprise.svg"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="content-card reveresed colored">
+                        <div class="card-text">
+                            <div class="card-title">Web Solutions</div>
+                            <div class="card-para">
+                                Be it complex web applications, or informative lead-gen websites, we have a portfolio which speaks.
+                                We help our customers embrace the mobile-centric web reality and transform legacy systems into modern cross-platform applications. 
+                                Drawing on their deep front-end expertise, our web app developers implement the most demanded web app development scenarios 
+                            </div>
+                            <div class="btn-holder">
+                                <a href="#what-we-offer">
+                                    <input type="button" class="button button-primary button-md" value="Explore more">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-img">
+                            <img src="assests/img/web.svg"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="content-card reveresed colored">
+                        <div class="card-text">
+                            <div class="card-title">Mobile Solutions</div>
+                            <div class="card-para">
+                                Immersive mobile app solutions, that transforms businesses and deliver great customer experience.
+                                Native, hybrid, and cross-platform mobile apps for consumer-facing and corporate environmentss
+                            </div>
+                            <div class="btn-holder">
+                                <a href="#what-we-offer">
+                                    <input type="button" class="button button-primary button-md" value="Explore more">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-img">
+                            <img src="assests/img/mobile.svg"/>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+</div>
     <section class="section curvy-right colored" id="what-we-offer">
         <div class="container">
             <div class="pd-bt-lg">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="title-section dark-bg">We do</div>
+                    <div class="col-lg-4">
+                        <div class="title-section dark-bg">We Do</div>
                         <div class="para-section dark-bg">
                             Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, 
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book
                         </div>
                         <div class="btn-holder">
-                            <input type="button" class="button button-primary button-lg" value="Explore more">
+                            <a href="#services">
+                                <input type="button" class="button button-primary button-lg" value="Explore more">
+                            </a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <div class="content-card sm">
                             <div class="card-img">
-                                <img src="assests/img/icon-1.svg"/>
+                                <img src="assests/img/ba-icon.svg"/>
                             </div>
-                            <div class="card-title">Product Designing</div>
+                            <div class="card-title">Requirement Elicitation</div>
                         </div>
                         <div class="content-card sm">
                             <div class="card-img">
-                                <img src="assests/img/icon-1.svg"/>
+                                <img src="assests/img/se-icon.svg"/>
+                            </div>
+                            <div class="card-title">Product Development</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="content-card sm">
+                            <div class="card-img">
+                                <img src="assests/img/uiux-icon.svg"/>
+                            </div>
+                            <div class="card-title">UI/UX Engineering</div>
+                        </div>
+                        <div class="content-card sm">
+                            <div class="card-img">
+                                <img src="assests/img/qa-icon.svg"/>
                             </div>
                             <div class="card-title">Quality Assurance Engineering</div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="content-card sm">
-                            <div class="card-img">
-                                <img src="assests/img/icon-1.svg"/>
-                            </div>
-                            <div class="card-title">Software Engineering</div>
+                </div>
+            </div>
+            <div class="content-container fluid mg-tb-md" id="services">
+                <div class="content-left">
+                    <div class="content-img">
+                        <img src="assests/img/ba.svg">
+                    </div>
+                </div>
+                <div class="content-right">
+                    <div class="content-text">
+                        <div class="title-section dark-bg">360 Client Engaged Requirement Elicitation</div>
+                        <div class="title-md-light colored">Business Analysis</div>
+                        <div class="content-text-para dark-bg ">
+                        <p>Adopting the Adaptive/Predetive approaches suit with the business problem/oppotunity by transforming your business requirements to functional/non-functional requirements to 
+                            cater the value to your business enterprise.</p>   
+                        <p>We do believe in client engagement in requirement elicitation and verification processses which ultimately build a product/solution where the customer satisfaction leads to substainable solutions with continous 
+                            improvement of both process side and product side.</p>
+    
                         </div>
-                        <div class="content-card sm">
-                            <div class="card-img">
-                                <img src="assests/img/icon-1.svg"/>
-                            </div>
-                            <div class="card-title">UI/UX Engineering</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-container fluid mg-tb-md">
+                <div class="content-left order-md-2 order-lg-1">
+                    <div class="content-text">
+                        <div class="title-section dark-bg">Product Designing</div>
+                        <div class="title-md-light colored">UI/UX</div>
+                        <div class="content-text-para dark-bg ">
+                        <p>We craft your product with an interactive design that brand your identity. We incorporate industry best practices to provide the highest standards of UX design based on market research. After having a deep understanding of your needs, we will be 
+                            transforming your ideas into extraordinary digital experiences and generating a significant value to your customers at every turn</p>   
+                        </div>
+                    </div>
+                </div>
+                <div class="content-right order-md-1 order-lg-2">
+                    <div class="content-img">
+                        <img src="assests/img/ux.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-container fluid mg-tb-md">
+                <div class="content-left">
+                    <div class="content-img">
+                        <img src="assests/img/se.svg">
+                    </div>
+                </div>
+                <div class="content-right">
+                    <div class="content-text">
+                        <div class="title-section dark-bg">Rapid Implementations</div>
+                        <div class="title-md-light colored">Software Engineering</div>
+                        <div class="content-text-para dark-bg ">
+                        <p>Adopting the Adaptive/Predetive approaches suit with the business problem/oppotunity by transforming your business requirements to functional/non-functional requirements to 
+                            cater the value to your business enterprise.</p>   
+                        <p>We do believe in client engagement in requirement elicitation and verification processses which ultimately build a product/solution where the customer satisfaction leads to substainable solutions with continous 
+                            improvement of both process side and product side.</p>
+    
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="content-card lg colored">
-                <div class="card-text">
-                    <div class="card-title">Product Designing</div>
-                    <div class="card-title-light">UX</div>
-                    <div class="card-para">
-                        We are a software company that helps you to make your dream idea a reality. Either it’s a project from the scratch or ongoing one, we would like to help you. 
-                        Blah blah blah blah blah blah blahb blah blah blah
-                    </div>
-                    <div class="btn-holder">
-                        <input type="button" class="button button-primary button-lg" value="Explore more">
-                    </div>
-                </div>
-                <div class="card-img">
-                    <img src="assests/img/ux-1.svg"/>
-                </div>
-            </div>
-            <div class="content-card lg colored">
-                <div class="card-text">
-                    <div class="card-title">Rapid Implementations</div>
-                    <div class="card-title-light">Software Engineering</div>
-                    <div class="card-para">
-                        We are a software company that helps you to make your dream idea a reality. Either it’s a project from the scratch or ongoing one, we would like to help you. 
-                        Blah blah blah blah blah blah blahb blah blah blah
-                    </div>
-                    <div class="btn-holder">
-                        <input type="button" class="button button-primary button-lg" value="Explore more">
+
+            <div class="content-container fluid mg-tb-md">
+                <div class="content-left order-md-2 order-lg-1">
+                    <div class="content-text">
+                        <div class="title-section dark-bg">Quality Product Delivering</div>
+                        <div class="title-md-light colored">Quality Assurance Engineering</div>
+                        <div class="content-text-para dark-bg ">
+                            <p>The quality of your website speaks volumes to your potential customers. Without quality assurance, you cannot dream of website 
+                            success and customer satisfaction. So team StaarkX is happy to help your dream of website with quality assurance.</p>   
+                        </div>
                     </div>
                 </div>
-                <div class="card-img">
-                    <img src="assests/img/se.svg"/>
-                </div>
-            </div>
-            <div class="content-card lg colored">
-                <div class="card-text">
-                    <div class="card-title">Quality product delivering</div>
-                    <div class="card-title-light">Quality Assurance Engineering</div>
-                    <div class="card-para">
-                        We are a software company that helps you to make your dream idea a reality. Either it’s a project from the scratch or ongoing one, we would like to help you. 
-                        Blah blah blah blah blah blah blahb blah blah blah
+                <div class="content-right order-md-1 order-lg-2">
+                    <div class="content-img">
+                        <img src="assests/img/qa.svg">
                     </div>
-                    <div class="btn-holder">
-                        <input type="button" class="button button-primary button-lg" value="Explore more">
-                    </div>
-                </div>
-                <div class="card-img">
-                    <img src="assests/img/qa.svg"/>
                 </div>
             </div>
         </div>
@@ -166,21 +273,51 @@
 <section class="section" id="lets-talk">
     <div class="container">
         <div class="content-container fluid">
-            <div class="content-left order-sm-2 order-md-1">
+            <div class="content-left order-md-2 order-lg-1">
                 <div class="content-img">
                     <img src="assests/img/contactus.svg">
                 </div>
             </div>
-            <div class="content-right order-sm-1 order-md-2">
+            <div class="content-right order-md-1 order-lg-2">
                 <div class="content-text">
-                    <div class="title-section">Let’s talk</div>
+                    <div class="title-section">Let’s Talk</div>
                     <div class="content-text-para">
-                        We are a software company that helps you to make 
-                        your dream idea a reality. Either it’s a project from the scratch or ongoing one, we would like to help you. Blah blah blah blah blah blah blahb blah blah blah
+                        Let's talk more about your problem. You can directly send us a message by using below form or else you can direct contact us.
                     </div>
-                    <div class="btn-holder">
-                        <input type="button" class="button button-primary button-lg" value="Contact Us">
+
+                    <div class="label secondary img-label">
+                        <img src="assests/img/mail.svg">
+                        <span>Direct message us : info.staarkx@gmail.com</span>
                     </div>
+
+                    <div class="form">
+                        <form>
+                            <div class="form-group">
+                              <label class="form-label">Name</label>
+                              <input type="text" class="form-control" id="">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Contact Number</label>
+                                <input type="" class="form-control" id="">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">E-mail</label>
+                                <input type="text" class="form-control" id="">
+                            </div>
+                           
+                            <div class="form-group">
+                                <label class="form-label">Tell us your story</label>
+                                <textarea class="form-control" id="" rows="4"></textarea>
+                              </div>
+
+                              <div class="btn-holder">
+                                <input type="button" class="button button-primary button-lg" value="Send">
+                            </div>
+                          </form>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -188,7 +325,7 @@
 </section>
 
 <footer>
-    <div>All rights reserved @Staark.com</div>
+    <div>All rights reserved @staarkx.com</div>
 </footer>
 
 
@@ -200,5 +337,32 @@
     $('nav').removeClass('shrink');
   }
 });
+
+$(function(){
+    $(document).scroll(function(){
+		if($(this).scrollTop() < $('#home').offset().top + 300 && $(this).scrollTop() >= $('#home').offset().top) {
+            $("#nav-get-to-know").removeClass('active');
+			$("#nav-home").addClass('active');
+			$("#nav-offer").removeClass('active');
+			$("#nav-talk").removeClass('active');
+        }
+        else if($(this).scrollTop() < $('#get-to-know').offset().top + 300 && $(this).scrollTop() >= $('#get-to-know').offset().top - 110) {
+            $("#nav-get-to-know").addClass('active');
+			$("#nav-home").removeClass('active');
+			$("#nav-offer").removeClass('active');
+			$("#nav-talk").removeClass('active');
+        } else if ($(this).scrollTop() < $('#what-we-offer').offset().top + 400 && $(this).scrollTop() >= $('#what-we-offer').offset().top - 110) {
+            $("#nav-get-to-know").removeClass('active');
+			$("#nav-home").removeClass('active');
+			$("#nav-offer").addClass('active');
+			$("#nav-talk").removeClass('active');      
+		} else if ($(this).scrollTop() < $('#lets-talk').offset().top + 500 && $(this).scrollTop() >= $('#lets-talk').offset().top - 120) {
+            $("#nav-get-to-know").removeClass('active');
+			$("#nav-home").removeClass('active');
+			$("#nav-offer").removeClass('active');
+			$("#nav-talk").addClass('active');
+        }
+    });});
+
 </script>
 </html>

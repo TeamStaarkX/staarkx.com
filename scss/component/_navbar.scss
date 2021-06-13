@@ -24,15 +24,14 @@
 
         & .nav-link{
             color: $light-text-color;
-            padding: 25px 0px;
+            padding: 20px 0px;
             margin: 0px 30px;
             font-family: 'Muli-SemiBold';
-            margin-bottom: 1px;
     
     
             &.active{
                 color: $light-text-color;
-                border-bottom: 5px solid $light-text-color;
+                border-bottom: 5px solid $primary-color;
                 font-family: 'Muli-ExtraBold';
             }
 

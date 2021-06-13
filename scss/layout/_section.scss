@@ -1,5 +1,6 @@
 .section{
     padding: 120px 0px;
+    text-align: center;
 
     &.colored{
         background: $secondary-color;
@@ -16,5 +17,11 @@
 
     &.landing{
         padding:0px;
+    }
+}
+
+@media (min-width:992.98px){
+    .section{
+        text-align: left;
     }
 }

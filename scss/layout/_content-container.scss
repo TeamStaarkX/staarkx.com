@@ -10,7 +10,6 @@
             padding-right: 15px;
     
             & .content-img{
-    
                 img{
                     width: 80vh;
                     max-width: 100%;
@@ -19,11 +18,14 @@
         
             & .content-text{
                 font-size:13px;
-                margin: 5% 10%;
+                margin-left:0;
                 text-align: center;
         
                 & .content-text-para{
-                    font-size:13px;
+                    font-size: 16px;
+                    color: $text-color-paragraph;
+                    line-height: 1.8;
+                    margin-top: 12px;
                     &.dark-bg{
                         color:$light-text-color;
                     }
@@ -36,17 +38,22 @@
             padding-left: 15px;
 
             & .content-img{
-                width: 80vh;
-                max-width: 100%;
+                img{
+                    width: 80vh;
+                    max-width: 100%;
+                }
             }
         
             & .content-text{
                 font-size:13px;
-                margin: 5% 10%;
+                margin-right:0;
                 text-align: center;
 
                 & .content-text-para{
-                    font-size:13px;
+                    font-size: 16px;
+                    color: #676b73;
+                    line-height: 1.8;
+                    margin-top: 12px;
                     &.dark-bg{
                         color:$light-text-color;
                     }
@@ -55,29 +62,7 @@
         }
     } 
 
-    & .content-left{
-        flex: 1;
-        padding-right: 15px;
-
-        & .content-img{
-                text-align: center;
-            img{
-                max-width: 700px;
-            }
-        }
     
-        & .content-text{
-            font-size:13px;
-            margin-left: 30%;
-    
-            & .content-text-para{
-                font-size:13px;
-                &.dark-bg{
-                    color:$light-text-color;
-                }
-            }
-        }
-    }
 }
 
 @media (min-width:992.98px){
@@ -88,6 +73,7 @@
             & .content-right{
                 & .content-text{
                     text-align: left;
+                    margin-left:15%;
                 }
 
                 & .content-img{
@@ -101,6 +87,7 @@
             & .content-left{
                 & .content-text{
                     text-align: left;
+                    margin-left:15%;
                 }
 
                 & .content-img{

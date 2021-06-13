@@ -1,0 +1,21 @@
+.label{
+    background: #FAFAFA;
+    padding: 6px 8px;
+    font-size: 15px;
+    margin: 12px 0px;
+    border-radius: 4px;
+    display: inline-block;
+    font-family: 'Muli-SemiBold';
+
+    &.img-label{
+        & img{
+            width: 20px;
+            margin: 0px 4px;
+        }
+    }
+
+    &.secondary{
+        background: #f2eefd;
+        color: $secondary-color;
+    }
+}
