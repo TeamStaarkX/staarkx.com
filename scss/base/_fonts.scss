@@ -38,7 +38,7 @@
 //   Typographics
 
 .title-lg{
-    font-size: 56px;
+    font-size: 60px;
     font-family: 'Muli-Black';
     color: $primary-text-color;
 
@@ -58,12 +58,26 @@
 }
 
 .title-lg-light{
-    font-size: 32px;
-    font-family: 'Muli-SemiBold';
+    font-size: 38px;
+    font-family: 'Muli-Light';
     color: $primary-text-color;
-    line-height: 1;
+    line-height: 1.2;
     &.dark-bg{
         color:$light-text-color;
+    }
+}
+
+.title-md-light{
+    font-size: 20px;
+    font-family: 'Muli-SemiBold';
+    color: $primary-text-color;
+    line-height: 1.2;
+    &.dark-bg{
+        color:$light-text-color;
+    }
+
+    &.colored{
+        color: $primary-color;
     }
 }
 
@@ -71,14 +85,25 @@
     font-size: 36px;
     font-family: 'Muli-Black';
     color: $primary-text-color;
+    line-height: 1.4;
+    &.dark-bg{
+        color:$light-text-color;
+    }
+
+    &.colored{
+        color: $primary-color;
+    }
+}
+
+.para-section{
+    font-size: 16px;
+    color: #676b73;
+    line-height: 1.7;
     &.dark-bg{
         color:$light-text-color;
     }
 }
 
-.para-section{
-    font-size: 13px;
-    &.dark-bg{
-        color:$light-text-color;
-    }
+.para-md{
+    font-size: 18px;
 }

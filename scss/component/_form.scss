@@ -1,0 +1,25 @@
+.form{
+    padding: 20px 0px;
+    color: $primary-text-color;
+    margin-bottom: 30px;
+
+    & .form-group{
+        margin-bottom: 25px;
+
+        & .form-label{
+            font-family: 'Muli-Bold';
+            font-size: 15px;
+        }
+
+        & .form-control{
+            resize: none;
+
+            &:focus{
+                border-color: #ecd5c7;
+                box-shadow: #ffdec7 !important;
+            }
+        }
+
+
+    }
+}
