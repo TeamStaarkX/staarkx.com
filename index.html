@@ -341,10 +341,12 @@
 });
 
 // clear form data
+
 var form = document.getElementById("letsTalkForm");
    form.addEventListener("submit", formSubmit);
-
+   
    function formSubmit(e) {
+    $.notify("Thank you for getting in touch!", "success");
        e.preventDefault()
 
        const formData = new FormData();
@@ -366,17 +368,17 @@ var form = document.getElementById("letsTalkForm");
        )
        
 
-       fetch("https://getform.io/f/da570110-2ad5-46a8-be77-014f8a64cb30",
-       {
-           method: "POST",
-           body: formData,
-       })
-       .then(response => {
-           console.log(response)
-           document.getElementById("letsTalkForm").reset();
-           $.notify("Form submited successfully", "success");
-        })
-       .catch(error => console.log(error))
+    //    fetch("https://getform.io/f/da570110-2ad5-46a8-be77-014f8a64cb30",
+    //    {
+    //        method: "POST",
+    //        body: formData,
+    //    })
+    //    .then(response => {
+    //        console.log(response)
+    //        document.getElementById("letsTalkForm").reset();
+    //        $.notify("Thank you for getting in touch!", "success");
+    //     })
+    //    .catch(error => console.log(error))
        }
 
 $(function(){
