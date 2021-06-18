@@ -9,6 +9,14 @@
         & .form-label{
             font-family: 'Muli-Bold';
             font-size: 15px;
+
+            &.required{
+                &::after{
+                    content: '*';
+                    color: $primary-color;
+                    margin-left: 4px;
+                }
+            }
         }
 
         & .form-control{

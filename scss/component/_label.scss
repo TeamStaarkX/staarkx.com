@@ -12,10 +12,19 @@
             width: 20px;
             margin: 0px 4px;
         }
+
+        & .label-text{
+            color: $secondary-color;
+            font-family: 'Muli-SemiBold';
+        }
     }
 
     &.secondary{
         background: #f2eefd;
         color: $secondary-color;
+    }
+
+    & a{
+        text-decoration: none;
     }
 }

@@ -16,10 +16,14 @@
 
         & .card-title{
             flex:3;
-            font-size: 18px;
+            font-size: 16px;
             font-family: 'Muli-SemiBold';
             color: $light-text-color;
             text-align: left;
+
+            &:hover{
+                color: $primary-color;
+            }
         }
 
         & .card-img{
@@ -27,6 +31,7 @@
 
             img{
                 height:50px;
+                margin-right: 5px;
             }
         }
     }
@@ -84,13 +89,13 @@
     }
 
     &.reveresed{
-        flex-direction: column-reverse;
+        flex-direction: column;
+        height: auto;
         text-align: center;
         padding: 30px;
         margin-bottom: 30px;
 
         & .card-text{
-            padding-right: 20px;
             & .card-title{
                 font-size: 26px;
                 font-family: 'Muli-ExtraBold';
@@ -113,7 +118,7 @@
             }
 
             & .card-para{
-                font-size: 16px;
+                font-size: 15px;
                 color: $text-color-paragraph;
                 line-height: 1.8;
 
@@ -134,4 +139,12 @@
     }
 
 
+}
+
+@media (min-width:992.98px){
+    .content-card{
+        &.reveresed{
+            height: 100%;
+        }
+    }
 }
