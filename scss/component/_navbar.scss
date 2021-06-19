@@ -26,13 +26,14 @@
             color: $light-text-color;
             padding: 20px 0px;
             margin: 0px 30px;
-            font-family: 'Muli-SemiBold';
+            font-family: 'Muli-ExtraBold';
     
     
             &.active{
                 color: $light-text-color;
                 border-bottom: 5px solid $primary-color;
                 font-family: 'Muli-ExtraBold';
+                color: $primary-color;
             }
 
             &:hover{
